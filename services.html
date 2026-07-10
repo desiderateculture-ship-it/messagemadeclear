@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services &amp; Pricing — Message Made Clear | Shaun Tucker</title>
+<meta name="description" content="Three ways to get clear: a free Clarity Audit, the $47 From Hero to Guide workshop, or Open for Business — a $1k-$15k 1-on-1 intensive with a custom website built in 7 days.">
+<link rel="canonical" href="https://messagemadeclear.com/services">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Three Ways to Get Clear — Message Made Clear">
+<meta property="og:description" content="Choose the path that fits where you are: free audit, $47 workshop, or the full 7-day intensive.">
+<meta property="og:locale" content="en_AU">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do I know which service is right for me?", "acceptedAnswer": { "@type": "Answer", "text": "Start with the free Clarity Audit to understand your gaps. If you want momentum, try the $47 workshop. If you're ready to transform your business in 7 days, book a strategy call." } },
+    { "@type": "Question", "name": "What if I'm not ready to invest $1k+?", "acceptedAnswer": { "@type": "Answer", "text": "Start with the free audit, then the workshop ($47). Both give you real clarity and momentum. Many clients upgrade to the full 1-on-1 after experiencing results." } },
+    { "@type": "Question", "name": "Is the website included in the 1-on-1 coaching?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The 7-day intensive includes a fully custom-built website based on your clear message, ready to generate leads immediately." } },
+    { "@type": "Question", "name": "Do you offer payment plans?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, for the 1-on-1 coaching. Discuss options during your strategy call." } },
+    { "@type": "Question", "name": "What if I need ongoing support after the 7 days?", "acceptedAnswer": { "@type": "Answer", "text": "That's included in your package. You'll have access to ongoing support and updates as needed." } }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mmc-shared.css">
+<style>
+/* Pricing tiers — richer than the home ladder: icon, includes list, per-card accent */
+.tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 60px; align-items: stretch; }
+.tier { border: 1px solid var(--line); border-radius: 24px; padding: 40px 34px; background: var(--ink-2); display: flex; flex-direction: column; position: relative; transition: border-color 0.3s; }
+.tier:hover { border-color: rgba(255,157,60,0.35); }
+.tier--cyan:hover { border-color: rgba(6,182,212,0.4); }
+.tier--hot { background: var(--ink-3); border: 1.5px solid; border-image: var(--grad) 1; }
+.tier--hot::before { content: 'Flagship Offer'; position: absolute; top: -13px; left: 32px; font: 700 10.5px/1 var(--sans); letter-spacing: 0.2em; text-transform: uppercase; background: var(--grad); color: #17090d; padding: 8px 14px; border-radius: 100px; }
+.tier__icon { width: 54px; height: 54px; border-radius: 14px; display: grid; place-items: center; font-size: 22px; margin-bottom: 20px; background: rgba(6,182,212,0.12); }
+.tier--amber .tier__icon { background: rgba(255,157,60,0.14); }
+.tier--hot .tier__icon { background: var(--grad); }
+.tier .stage { font: 600 11px/1 var(--sans); letter-spacing: 0.18em; text-transform: uppercase; color: var(--bone-faint); margin: 0 0 6px; }
+.tier h3 { font-size: 23px; margin: 0 0 4px; }
+.tier .price { font: 800 clamp(1.7rem,2.8vw,2.3rem)/1.1 var(--display); margin: 14px 0 2px; }
+.tier--hot .price { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.tier .price-note { font-size: 12px; color: var(--bone-faint); margin: 0 0 22px; }
+.tier .desc { font-size: 14.5px; color: var(--bone-dim); margin: 0 0 24px; flex: 0; }
+.tier .includes { list-style: none; margin: 0 0 28px; padding: 20px 0 0; border-top: 1px solid var(--line); flex: 1; }
+.tier .includes li { padding: 8px 0; font-size: 13.5px; color: var(--bone-dim); display: flex; gap: 10px; align-items: baseline; }
+.tier .includes li::before { content: '✓'; color: var(--hot-a); flex-shrink: 0; }
+.tier--hot .includes li::before { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+@media (max-width: 980px) { .tiers { grid-template-columns: 1fr; } }
+
+/* Journey: 3-step path with connecting arrows */
+.journey { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 60px; position: relative; }
+.jstep { position: relative; border: 1.5px solid var(--line); border-radius: 18px; padding: 32px 28px; background: var(--ink-2); }
+.jstep .n { font: 800 46px/1 var(--display); color: var(--bone-faint); opacity: 0.3; margin-bottom: 14px; }
+.jstep h3 { font-size: 19px; margin: 0 0 10px; }
+.jstep p { font-size: 14px; color: var(--bone-dim); margin: 0; }
+.jstep .arrow { display: none; position: absolute; right: -30px; top: 50%; transform: translateY(-50%); font-size: 22px; color: var(--bone-faint); }
+@media (min-width: 981px) { .jstep:not(:last-child) .arrow { display: block; } }
+@media (max-width: 980px) { .journey { grid-template-columns: 1fr; } }
+
+/* Fit checklist */
+.fitgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 760px; margin: 56px auto 0; }
+.fititem { display: flex; align-items: flex-start; gap: 14px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 14px; background: var(--ink-2); transition: border-color 0.25s; }
+.fititem:hover { border-color: rgba(255,61,119,0.35); }
+.fititem span { flex-shrink: 0; color: var(--hot-a); font-weight: 800; font-size: 18px; }
+.fititem p { margin: 0; font-size: 14.5px; color: var(--bone-dim); }
+@media (max-width: 700px) { .fitgrid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+
+<nav class="nav" id="nav" aria-label="Main">
+  <div class="wrap nav__inner">
+    <a class="nav__brand" href="index.html">Message <em>Made</em> Clear</a>
+    <div class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" aria-current="page">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Your Clarity Call</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero center">
+  <div class="wrap">
+    <p class="kicker kicker--center reveal" style="justify-content:center;">Your Path Forward</p>
+    <h1 class="h-hero reveal" data-d="1" style="font-size:clamp(2.6rem,6vw,5rem);">Three ways to <span class="serif-i grad-text">get clear.</span></h1>
+    <p class="lede reveal" data-d="2" style="margin:24px auto 0;">Choose the path that fits where you are right now. From free discovery to full transformation.</p>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ PRICING ============ -->
+<section class="rule-top">
+  <div class="wrap">
+    <div class="tiers">
+      <div class="tier tier--cyan reveal" data-d="1">
+        <div class="tier__icon">📱</div>
+        <p class="stage">Free Lead Magnet</p>
+        <h3>Clarity Audit</h3>
+        <p class="price">$0</p>
+        <p class="price-note">Forever free · Available 24/7</p>
+        <p class="desc">Understand your messaging gaps. Get a detailed report scoring your website clarity and conversion persuasiveness. Self-serve insights to fix it yourself — or upgrade.</p>
+        <ul class="includes">
+          <li>Message clarity scoring</li>
+          <li>Website analysis</li>
+          <li>Positioning assessment</li>
+          <li>Action plan</li>
+        </ul>
+        <a class="btn btn--ghost" href="/audit">Start Your Free Audit</a>
+      </div>
+
+      <div class="tier tier--amber reveal" data-d="2">
+        <div class="tier__icon">🎯</div>
+        <p class="stage">Online Workshop</p>
+        <h3>From Hero to Guide</h3>
+        <p class="price">$47</p>
+        <p class="price-note">One-time · 2-hour live workshop</p>
+        <p class="desc">Turn your journey into a business offer. Get crystal clear on your message based on one part of your transformation. Your first real win.</p>
+        <ul class="includes">
+          <li>Live workshop with Shaun</li>
+          <li>Message crafting framework</li>
+          <li>Offer positioning</li>
+          <li>Q&amp;A and feedback</li>
+        </ul>
+        <a class="btn btn--ghost" href="https://calendly.com/theshauntucker/workshop">Register Now</a>
+      </div>
+
+      <div class="tier tier--hot reveal" data-d="3">
+        <div class="tier__icon">⚡</div>
+        <p class="stage">1-on-1 Coaching</p>
+        <h3>Open for Business</h3>
+        <p class="price">$1k–$15k</p>
+        <p class="price-note">Custom pricing · 7-day intensive</p>
+        <p class="desc">Crystal clear message + custom-built website + sales system. In 7 days. Your business works around the clock attracting aligned clients.</p>
+        <ul class="includes">
+          <li>Deep clarity extraction</li>
+          <li>Custom website built</li>
+          <li>Clear narrative messaging</li>
+          <li>Sales-ready positioning</li>
+          <li>24/7 lead generation</li>
+          <li>Ongoing support</li>
+        </ul>
+        <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Strategy Call</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNEY ============ -->
+<section class="rule-top">
+  <div class="wrap">
+    <p class="kicker kicker--center reveal" style="justify-content:center;">How It Works</p>
+    <h2 class="h-1 center reveal" data-d="1">Your path to <span class="serif-i grad-text">clarity.</span></h2>
+    <div class="journey">
+      <div class="jstep reveal" data-d="1"><div class="n">01</div><h3>Start Free</h3><p>Take the Clarity Audit. Understand exactly where your messaging is weak and strong.</p><span class="arrow" aria-hidden="true">→</span></div>
+      <div class="jstep reveal" data-d="2"><div class="n">02</div><h3>Get Your First Win</h3><p>Join the workshop. Create your first crystal clear message in 2 hours.</p><span class="arrow" aria-hidden="true">→</span></div>
+      <div class="jstep reveal" data-d="3"><div class="n">03</div><h3>Go All In</h3><p>Work 1-on-1. Get your full system built in 7 days. Start attracting clients.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FIT ============ -->
+<section class="rule-top">
+  <div class="wrap">
+    <p class="kicker kicker--center reveal" style="justify-content:center;">Ideal Fit</p>
+    <h2 class="h-1 center reveal" data-d="1">This is for you <span class="serif-i grad-text">if…</span></h2>
+    <div class="fitgrid reveal" data-d="2">
+      <div class="fititem"><span>✓</span><p>You have real expertise and proven results</p></div>
+      <div class="fititem"><span>✓</span><p>Your clients love you but don't refer you</p></div>
+      <div class="fititem"><span>✓</span><p>You're undercharging for your value</p></div>
+      <div class="fititem"><span>✓</span><p>Your website isn't generating leads</p></div>
+      <div class="fititem"><span>✓</span><p>You want to attract premium clients</p></div>
+      <div class="fititem"><span>✓</span><p>You're ready to scale without burning out</p></div>
+      <div class="fititem"><span>✓</span><p>You know your work matters but can't articulate why</p></div>
+      <div class="fititem"><span>✓</span><p>You want a system that works 24/7</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="rule-top">
+  <div class="wrap">
+    <p class="kicker kicker--center reveal" style="justify-content:center;">Questions?</p>
+    <h2 class="h-1 center reveal" data-d="1">Everything you need <span class="serif-i grad-text">to know.</span></h2>
+    <div class="faq reveal" data-d="2">
+      <details>
+        <summary>How do I know which service is right for me?</summary>
+        <p>Start with the free Clarity Audit to understand your gaps. If you want momentum, try the $47 workshop. If you're ready to transform your business in 7 days, book a strategy call.</p>
+      </details>
+      <details>
+        <summary>What if I'm not ready to invest $1k+?</summary>
+        <p>Perfect — start with the free audit, then the workshop ($47). Both give you real clarity and momentum. Many clients upgrade to the full 1-on-1 after experiencing results.</p>
+      </details>
+      <details>
+        <summary>Is the website included in the 1-on-1 coaching?</summary>
+        <p>Yes. The 7-day intensive includes a fully custom-built website based on your clear message, ready to generate leads immediately.</p>
+      </details>
+      <details>
+        <summary>Do you offer payment plans?</summary>
+        <p>Yes, for the 1-on-1 coaching. Discuss options during your strategy call.</p>
+      </details>
+      <details>
+        <summary>What if I need ongoing support after the 7 days?</summary>
+        <p>That's included in your package. You'll have access to ongoing support and updates as needed.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final rule-top">
+  <div class="wrap">
+    <p class="kicker reveal" style="justify-content:center;">Ready to Get Clear?</p>
+    <h2 class="h-1 reveal" data-d="1">Choose your path. <span class="serif-i grad-text">Start today.</span></h2>
+    <p class="lede reveal" data-d="2" style="text-align:center;">Your clarity journey begins with a single step — pick the one that fits where you are right now.</p>
+    <div class="cta-row reveal" data-d="3" style="justify-content:center;">
+      <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Strategy Call</a>
+      <a class="btn btn--ghost" href="https://calendly.com/theshauntucker/workshop">Register for Workshop</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h4>Message Made Clear</h4>
+        <p>By Shaun Tucker — business mentor for invisible experts. Get clear, get visible, get chosen.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Ready to Get Clear?</h4>
+        <p style="margin-bottom:18px;">One call. One week. One clear message.</p>
+        <a class="btn btn--ghost" href="https://calendly.com/theshauntucker/strategycall" style="padding:13px 24px;font-size:13px;">Book Your Clarity Call</a>
+      </div>
+    </div>
+    <div class="foot__legal">
+      <span>© 2026 Message Made Clear. All rights reserved. · For invisible experts ready to get clear, visible, and chosen.</span>
+      <span><a href="terms.html">Terms of Service</a> &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+var nav = document.getElementById('nav'), bar = document.getElementById('progress');
+addEventListener('scroll', function () {
+  nav.classList.toggle('scrolled', scrollY > 40);
+  var h = document.documentElement;
+  bar.style.width = (scrollY / (h.scrollHeight - h.clientHeight) * 100) + '%';
+}, { passive: true });
+var io = new IntersectionObserver(function (entries) {
+  entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+}, { threshold: 0.14 });
+document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+</script>
+</body>
+</html>

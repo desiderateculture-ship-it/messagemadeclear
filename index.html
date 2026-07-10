@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Message Made Clear — Business Mentor for Invisible Experts | Shaun Tucker</title>
+<meta name="description" content="Your expertise is real. But your message is out of focus. In seven days, Shaun Tucker gets you crystal clear on your message and builds you a website that works as your sales deck. Get clear. Get visible. Get chosen.">
+<link rel="canonical" href="https://messagemadeclear.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Message Made Clear — Get Clear. Get Visible. Get Chosen.">
+<meta property="og:description" content="Business mentorship for invisible experts. Crystal clear message + custom website + sales system, in 7 days.">
+<meta property="og:url" content="https://messagemadeclear.com/">
+<meta property="og:image" content="https://messagemadeclear.com/og-image.jpg"><!-- TODO: 1200x630 self-hosted -->
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": "Shaun Tucker",
+      "jobTitle": "Business Mentor for Invisible Experts",
+      "url": "https://messagemadeclear.com/",
+      "description": "Shaun Tucker helps wellness practitioners, coaches, and facilitators get crystal clear on their message and build websites that work as sales presentation decks.",
+      "knowsAbout": ["Business messaging", "Website strategy", "Sales systems", "Brand clarity"]
+    },
+    {
+      "@type": "Organization",
+      "name": "Message Made Clear",
+      "url": "https://messagemadeclear.com/",
+      "slogan": "Get Clear. Get Visible. Get Chosen.",
+      "makesOffer": [
+        { "@type": "Offer", "name": "Clarity Audit", "price": "0", "priceCurrency": "AUD", "description": "Free website clarity and conversion audit with detailed scoring." },
+        { "@type": "Offer", "name": "From Hero to Guide Workshop", "price": "47", "priceCurrency": "AUD", "description": "2-hour live online workshop to craft your first crystal clear message." },
+        { "@type": "Offer", "name": "Open for Business — 1-on-1 Intensive", "priceCurrency": "AUD", "description": "7-day intensive: crystal clear message, custom-built website, and sales system. $1k–$15k custom pricing." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is this just another marketing course?", "acceptedAnswer": { "@type": "Answer", "text": "No. This isn't about theory. This is about clarity. We cut through the noise to define your unique transformation, craft your message, and build a sales tool that works for you. It's practical, hands-on, and focused on immediate results." } },
+        { "@type": "Question", "name": "How much time will this take?", "acceptedAnswer": { "@type": "Answer", "text": "In just seven days, you'll have a clear message and a working sales tool. The process is designed to be efficient and impactful." } },
+        { "@type": "Question", "name": "Is the website included in the 1-on-1 coaching?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The 7-day intensive includes a fully custom-built website based on your clear message, ready to generate leads immediately." } },
+        { "@type": "Question", "name": "Do you offer payment plans?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, for the 1-on-1 coaching. Discuss options during your strategy call." } }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<style>
+/* =========================================================================
+   MESSAGE MADE CLEAR — flagship build
+   One signature move: out-of-focus → crystal clear.
+   Ink black · bone white · one hot gradient (Shaun's pink→amber), used
+   surgically. Playfair for conviction, DM Sans for clarity.
+   ========================================================================= */
+:root {
+  --ink: #0e0e11;
+  --ink-2: #141419;
+  --ink-3: #1c1c23;
+  --bone: #f2efe9;
+  --bone-dim: rgba(242, 239, 233, 0.66);
+  --bone-faint: rgba(242, 239, 233, 0.38);
+  --line: rgba(242, 239, 233, 0.1);
+  --hot-a: #ff3d77;
+  --hot-b: #ff9d3c;
+  --grad: linear-gradient(137deg, var(--hot-a) 0%, var(--hot-b) 100%);
+  --display: 'Playfair Display', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, sans-serif;
+  --max: 1180px;
+  --pad: clamp(20px, 5vw, 56px);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--bone);
+  font: 400 17px/1.7 var(--sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+::selection { background: var(--hot-a); color: #fff; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: var(--max); margin: 0 auto; padding-left: var(--pad); padding-right: var(--pad); }
+
+/* Layered depth: grain + vignette on the whole page */
+body::before {
+  content: ''; position: fixed; inset: 0; z-index: 1; pointer-events: none; opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+main, header, footer, nav { position: relative; z-index: 2; }
+
+/* Scroll progress hairline */
+#progress { position: fixed; top: 0; left: 0; height: 2px; width: 0; background: var(--grad); z-index: 300; }
+
+/* Typography system */
+.kicker {
+  display: flex; align-items: center; gap: 14px;
+  font: 600 11.5px/1 var(--sans); letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--bone-dim); margin: 0 0 26px;
+}
+.kicker::before { content: ''; width: 40px; height: 1px; background: var(--grad); }
+.kicker .n { font: 600 11.5px/1 var(--sans); color: transparent; background: var(--grad); -webkit-background-clip: text; background-clip: text; }
+h1, h2, h3 { font-family: var(--display); font-weight: 700; margin: 0; letter-spacing: -0.015em; }
+.h-hero { font-size: clamp(3rem, 8.2vw, 7rem); line-height: 1.02; font-weight: 800; }
+.h-1 { font-size: clamp(2.1rem, 4.6vw, 3.6rem); line-height: 1.1; }
+.h-2 { font-size: clamp(1.5rem, 2.6vw, 2.1rem); line-height: 1.25; }
+.grad-text { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.serif-i { font-family: var(--display); font-style: italic; font-weight: 600; }
+.lede { font-size: clamp(1.05rem, 1.7vw, 1.25rem); color: var(--bone-dim); max-width: 60ch; }
+
+/* Buttons */
+.btn {
+  position: relative; display: inline-flex; align-items: center; gap: 10px;
+  font: 600 14px/1 var(--sans); letter-spacing: 0.04em;
+  padding: 18px 34px; border-radius: 100px;
+  text-decoration: none; cursor: pointer; border: 0;
+  color: #17090d; background: var(--grad);
+  transition: transform 0.2s ease, box-shadow 0.25s ease;
+  isolation: isolate;
+}
+.btn::after { content: '→'; transition: transform 0.2s ease; }
+.btn:hover { transform: translateY(-2px); box-shadow: 0 12px 40px -8px rgba(255, 61, 119, 0.5); }
+.btn:hover::after { transform: translateX(4px); }
+.btn:focus-visible { outline: 2px solid var(--bone); outline-offset: 3px; }
+.btn--ghost { background: transparent; color: var(--bone); border: 1px solid var(--line); box-shadow: none; }
+.btn--ghost:hover { border-color: var(--hot-a); color: #fff; box-shadow: none; }
+.cta-row { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+.cta-note { font-size: 13px; color: var(--bone-faint); }
+
+/* Nav */
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; transition: background 0.35s, border-color 0.35s; border-bottom: 1px solid transparent; }
+.nav.scrolled { background: rgba(14, 14, 17, 0.85); backdrop-filter: blur(14px); border-color: var(--line); }
+.nav__inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 18px 0; }
+.nav__brand { font: 800 15px/1.2 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--bone); text-decoration: none; }
+.nav__brand em { font: italic 600 15px/1.2 var(--display); text-transform: none; letter-spacing: 0; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.nav__links { display: flex; gap: 30px; align-items: center; }
+.nav__links a:not(.btn) { font: 500 13.5px/1 var(--sans); color: var(--bone-dim); text-decoration: none; transition: color 0.15s; }
+.nav__links a:not(.btn):hover { color: var(--bone); }
+.nav .btn { padding: 12px 22px; font-size: 12.5px; }
+@media (max-width: 940px) { .nav__links a:not(.btn) { display: none; } }
+
+/* ============ HERO: the focus lens ============ */
+.hero {
+  min-height: 100svh; display: flex; align-items: center;
+  position: relative; overflow: hidden;
+  padding-top: 120px; padding-bottom: 140px;
+}
+/* layered glows */
+.hero::before {
+  content: ''; position: absolute; inset: -20%;
+  background:
+    radial-gradient(600px 420px at 80% 18%, rgba(255, 61, 119, 0.14), transparent 60%),
+    radial-gradient(700px 520px at 12% 85%, rgba(255, 157, 60, 0.1), transparent 60%);
+  pointer-events: none;
+}
+/* the roaming focus lens (follows cursor) */
+#lens {
+  position: absolute; width: 340px; height: 340px; border-radius: 50%;
+  border: 1px solid rgba(255, 61, 119, 0.35);
+  background: radial-gradient(circle, rgba(255,61,119,0.07), transparent 65%);
+  transform: translate(-50%, -50%);
+  pointer-events: none; opacity: 0; transition: opacity 0.5s ease;
+  mix-blend-mode: screen;
+}
+.hero:hover #lens { opacity: 1; }
+.hero .wrap { position: relative; }
+.hero .kicker { margin-bottom: 34px; }
+/* the signature: "out of focus" resolves */
+.blurword {
+  font-style: italic; font-weight: 600; white-space: nowrap;
+  background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+  display: inline-block;
+  filter: blur(10px); opacity: 0.5;
+  transition: filter 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.5s, opacity 1.4s ease 0.5s;
+}
+.is-loaded .blurword { filter: blur(0); opacity: 1; }
+.hero__sub { margin: 36px 0 14px; }
+.hero__offer { font-size: 15.5px; color: var(--bone-faint); max-width: 58ch; margin: 0 0 42px; }
+.hero__offer strong { color: var(--bone-dim); font-weight: 600; }
+.hero__scroll {
+  position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%);
+  font: 600 10.5px/1 var(--sans); letter-spacing: 0.3em; text-transform: uppercase;
+  color: var(--bone-faint); display: flex; flex-direction: column; align-items: center; gap: 12px;
+}
+.hero__scroll::after { content: ''; width: 1px; height: 44px; background: linear-gradient(var(--bone-faint), transparent); animation: drip 2.2s ease-in-out infinite; }
+@keyframes drip { 0% { transform: scaleY(0); transform-origin: top; } 50% { transform: scaleY(1); transform-origin: top; } 51% { transform-origin: bottom; } 100% { transform: scaleY(0); transform-origin: bottom; } }
+
+/* Marquee */
+.marquee { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); overflow: hidden; padding: 22px 0; background: var(--ink-2); }
+.marquee__track { display: flex; gap: 0; width: max-content; animation: scroll 30s linear infinite; }
+.marquee span {
+  font: 700 clamp(1rem, 1.8vw, 1.35rem)/1 var(--sans); letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--bone-faint); padding: 0 30px; white-space: nowrap;
+}
+.marquee span b { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; }
+@keyframes scroll { to { transform: translateX(-50%); } }
+
+/* Sections */
+section { padding: clamp(80px, 11vw, 150px) 0; position: relative; }
+.rule-top { border-top: 1px solid var(--line); }
+
+/* Problem cards */
+.costs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 64px; }
+.cost { background: var(--ink); padding: 44px 38px; position: relative; overflow: hidden; transition: background 0.3s; }
+.cost:hover { background: var(--ink-2); }
+.cost .ghost {
+  position: absolute; top: 6px; right: 18px;
+  font: 800 110px/1 var(--display); color: transparent;
+  -webkit-text-stroke: 1px rgba(242, 239, 233, 0.09);
+  pointer-events: none;
+}
+.cost h3 { font-size: 22px; margin: 0 0 16px; }
+.cost h3 span { display: block; font: 600 11px/1 var(--sans); letter-spacing: 0.22em; text-transform: uppercase; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; margin-bottom: 12px; }
+.cost p { font-size: 15px; color: var(--bone-dim); margin: 0; }
+@media (max-width: 880px) { .costs { grid-template-columns: 1fr; } }
+
+/* Proof strip — real numbers, animated */
+.proof { background: var(--ink-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: clamp(56px, 7vw, 88px) 0; }
+.proof__grid { display: grid; grid-template-columns: 1.1fr repeat(3, 1fr); gap: clamp(24px, 4vw, 56px); align-items: center; }
+.proof__intro p { font-size: 14px; color: var(--bone-dim); margin: 10px 0 0; }
+.stat .num { font: 800 clamp(2.4rem, 4.4vw, 3.6rem)/1 var(--display); background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; display: block; }
+.stat .lbl { font: 600 11px/1.5 var(--sans); letter-spacing: 0.18em; text-transform: uppercase; color: var(--bone-faint); display: block; margin-top: 12px; }
+@media (max-width: 880px) { .proof__grid { grid-template-columns: 1fr 1fr; } .proof__intro { grid-column: 1 / -1; } }
+
+/* Guide split */
+.guide { display: grid; grid-template-columns: 0.85fr 1.3fr; gap: clamp(40px, 6vw, 90px); align-items: center; }
+.frame {
+  aspect-ratio: 4/5; position: relative; border-radius: 4px;
+  background: linear-gradient(160deg, var(--ink-3), var(--ink-2));
+  border: 1px solid var(--line);
+  display: grid; place-items: center; color: var(--bone-faint); font-size: 13px; text-align: center; padding: 24px;
+}
+.frame::after {
+  content: ''; position: absolute; inset: -14px; border: 1px solid var(--line); border-radius: 4px; pointer-events: none;
+}
+.frame::before {
+  content: ''; position: absolute; top: -14px; left: -14px; width: 72px; height: 72px;
+  border-top: 2px solid var(--hot-a); border-left: 2px solid var(--hot-a); border-radius: 4px 0 0 0;
+}
+.guide__story p { color: var(--bone-dim); margin: 0 0 20px; max-width: 58ch; }
+.guide__story .turn {
+  font: italic 600 clamp(1.3rem, 2.4vw, 1.7rem)/1.45 var(--display);
+  color: var(--bone); border-left: 2px solid; border-image: var(--grad) 1;
+  padding-left: 24px; margin: 30px 0;
+}
+@media (max-width: 880px) { .guide { grid-template-columns: 1fr; } .frame { max-width: 360px; } }
+
+/* Plan steps */
+.steps { counter-reset: step; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 64px; }
+.step {
+  position: relative; border-radius: 24px; padding: 2px; overflow: hidden;
+  background: linear-gradient(160deg, rgba(242,239,233,0.12), rgba(242,239,233,0.03));
+  transition: transform 0.3s ease;
+}
+.step:hover { transform: translateY(-6px); }
+.step:hover::before { opacity: 1; }
+.step::before {
+  content: ''; position: absolute; inset: 0; border-radius: 24px;
+  background: var(--grad); opacity: 0; transition: opacity 0.35s ease;
+}
+.step__in {
+  position: relative; background: var(--ink-2); border-radius: 22px;
+  padding: 42px 34px 38px; height: 100%; display: flex; flex-direction: column;
+}
+.step__in::before {
+  counter-increment: step; content: '0' counter(step);
+  font: 800 88px/1 var(--display); color: transparent;
+  -webkit-text-stroke: 1px rgba(242,239,233,0.14);
+  display: block; margin-bottom: 22px;
+}
+.step h3 { font-size: 22px; margin: 0 0 12px; }
+.step p { font-size: 15px; color: var(--bone-dim); margin: 0 0 22px; flex: 1; }
+.step .out { border-top: 1px solid var(--line); padding-top: 18px; font-size: 13.5px; color: var(--bone-faint); }
+.step .out b { display: block; font: 600 10.5px/1 var(--sans); letter-spacing: 0.2em; text-transform: uppercase; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; margin-bottom: 10px; }
+@media (max-width: 880px) { .steps { grid-template-columns: 1fr; } }
+
+.seven {
+  margin-top: 72px; text-align: center; position: relative; overflow: hidden;
+  border-radius: 28px; padding: clamp(48px, 7vw, 84px) 32px;
+  background: var(--ink-2); border: 1px solid var(--line);
+}
+.seven::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(700px 320px at 50% 120%, rgba(255,61,119,0.16), transparent 70%);
+}
+.seven > * { position: relative; }
+.seven .big { font: 800 clamp(1.8rem, 3.8vw, 2.9rem)/1.15 var(--display); margin: 0 0 14px; letter-spacing: -0.015em; }
+.seven .sub { color: var(--bone-dim); margin: 0 0 36px; }
+
+/* Services ladder */
+.tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 64px; align-items: stretch; }
+.tier {
+  border: 1px solid var(--line); border-radius: 24px; padding: 40px 34px;
+  background: var(--ink-2); display: flex; flex-direction: column; position: relative;
+}
+.tier--hot { background: var(--ink-3); }
+.tier--hot::before {
+  content: 'Flagship Offer'; position: absolute; top: -13px; left: 32px;
+  font: 700 10.5px/1 var(--sans); letter-spacing: 0.2em; text-transform: uppercase;
+  background: var(--grad); color: #17090d; padding: 8px 14px; border-radius: 100px;
+}
+.tier--hot { border-image: var(--grad) 1; border-width: 1.5px; border-style: solid; border-radius: 0; }
+.tier .stage { font: 600 11px/1 var(--sans); letter-spacing: 0.22em; text-transform: uppercase; color: var(--bone-faint); margin: 0 0 14px; }
+.tier h3 { font-size: 24px; margin: 0 0 6px; }
+.tier .price { font: 800 clamp(1.6rem, 2.6vw, 2.1rem)/1.1 var(--display); background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; margin: 0 0 6px; }
+.tier .meta { font-size: 12.5px; color: var(--bone-faint); margin: 0 0 20px; }
+.tier p.desc { font-size: 15px; color: var(--bone-dim); flex: 1; margin: 0 0 30px; }
+@media (max-width: 940px) { .tiers { grid-template-columns: 1fr; } .tier--hot { border-radius: 24px; } }
+
+/* Fork: interactive focus metaphor */
+.fork { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 64px; }
+.path { padding: clamp(38px, 5vw, 60px) clamp(30px, 4vw, 52px); background: var(--ink); transition: filter 0.5s ease, opacity 0.5s ease, background 0.4s; }
+.path h3 { font-size: 24px; margin: 0 0 26px; }
+.path ul { list-style: none; margin: 0; padding: 0; }
+.path li { padding: 14px 0 14px 30px; position: relative; font-size: 15.5px; color: var(--bone-dim); border-bottom: 1px solid var(--line); }
+.path li:last-child { border-bottom: 0; }
+.path--stay { filter: blur(1.3px) saturate(0.4); opacity: 0.6; }
+.path--stay li::before { content: '—'; position: absolute; left: 0; color: var(--bone-faint); }
+.path--stay h3 { font-style: italic; font-weight: 500; color: var(--bone-dim); }
+.path--go { background: var(--ink-2); }
+.path--go li::before { content: '✓'; position: absolute; left: 0; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; }
+.fork:hover .path--stay { filter: blur(2.5px) saturate(0.2); opacity: 0.35; }
+.fork-hint { text-align: center; font-size: 12.5px; color: var(--bone-faint); margin-top: 18px; }
+@media (max-width: 820px) { .fork { grid-template-columns: 1fr; } .path--stay { filter: blur(0.8px) saturate(0.5); } }
+
+/* Case study */
+.case { border: 1px solid var(--line); border-radius: 28px; overflow: hidden; margin-top: 64px; background: var(--ink-2); }
+.case__head { padding: clamp(36px, 5vw, 56px) clamp(30px, 5vw, 56px) 0; }
+.case__quote {
+  font: italic 500 clamp(1.25rem, 2.4vw, 1.75rem)/1.55 var(--display);
+  margin: 0; padding: clamp(24px, 3vw, 36px) clamp(30px, 5vw, 56px);
+}
+.case__quote::before { content: '\201C'; font-size: 1.6em; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; vertical-align: -0.2em; margin-right: 4px; }
+.case__who { padding: 0 clamp(30px, 5vw, 56px) clamp(36px, 5vw, 56px); font-size: 14px; color: var(--bone-faint); }
+.case__who b { color: var(--bone); font-weight: 600; }
+.case__stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }
+.case__stat { padding: 30px; text-align: center; border-right: 1px solid var(--line); }
+.case__stat:last-child { border-right: 0; }
+.case__stat .num { font: 800 clamp(1.6rem, 3vw, 2.3rem)/1 var(--display); background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; display: block; }
+.case__stat .lbl { font-size: 12px; color: var(--bone-faint); display: block; margin-top: 10px; letter-spacing: 0.06em; text-transform: uppercase; }
+@media (max-width: 720px) { .case__stats { grid-template-columns: 1fr; } .case__stat { border-right: 0; border-bottom: 1px solid var(--line); } }
+
+/* Client stories */
+.stories { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 56px; }
+.story { border: 1px solid var(--line); border-radius: 24px; padding: 36px 32px; background: var(--ink-2); display: flex; flex-direction: column; transition: transform 0.3s, border-color 0.3s; }
+.story:hover { transform: translateY(-5px); border-color: rgba(255,61,119,0.4); }
+.story blockquote { font: italic 500 16.5px/1.65 var(--display); margin: 0 0 26px; flex: 1; }
+.story blockquote::before { content: '\201C'; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.story blockquote::after { content: '\201D'; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.story cite { font-style: normal; }
+.story cite b { display: block; font: 600 15px/1.3 var(--sans); }
+.story cite span { font-size: 13px; color: var(--bone-faint); }
+.story .result { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); font: 600 12px/1.5 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+@media (max-width: 880px) { .stories { grid-template-columns: 1fr; } }
+
+/* FAQ */
+.faq { max-width: 780px; margin: 56px auto 0; }
+.faq details { border-top: 1px solid var(--line); }
+.faq details:last-child { border-bottom: 1px solid var(--line); }
+.faq summary {
+  cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 18px;
+  padding: 26px 4px; font: 600 17.5px/1.4 var(--sans);
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after {
+  content: '+'; font: 300 30px/1 var(--sans); flex-shrink: 0;
+  background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+  transition: transform 0.25s ease;
+}
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { margin: 0 0 28px; padding: 0 4px; color: var(--bone-dim); max-width: 64ch; }
+.faq summary:focus-visible { outline: 2px solid var(--hot-a); outline-offset: 4px; border-radius: 6px; }
+
+/* Final CTA */
+.final { text-align: center; position: relative; overflow: hidden; }
+.final::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(800px 400px at 50% 115%, rgba(255,61,119,0.18), transparent 70%);
+  pointer-events: none;
+}
+.final .wrap { position: relative; }
+.final .h-1 { max-width: 16ch; margin: 0 auto 20px; }
+.final .lede { margin: 0 auto 44px; }
+
+/* Footer */
+footer { border-top: 1px solid var(--line); padding: 64px 0 44px; background: var(--ink-2); }
+.foot { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 40px; margin-bottom: 48px; }
+.foot h4 { font: 700 13px/1 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; margin: 0 0 18px; }
+.foot p { font-size: 14px; color: var(--bone-dim); margin: 0; max-width: 36ch; }
+.foot ul { list-style: none; margin: 0; padding: 0; }
+.foot li { margin-bottom: 10px; }
+.foot a { font-size: 14px; color: var(--bone-dim); text-decoration: none; }
+.foot a:hover { color: var(--bone); }
+.foot__legal { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 28px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--bone-faint); }
+.foot__legal a { color: var(--bone-faint); }
+@media (max-width: 820px) { .foot { grid-template-columns: 1fr; } }
+
+/* ===== Amplification layer ===== */
+.aurora {
+  position: absolute; top: -10%; right: -12%; width: 58vw; height: 58vw; max-width: 900px; max-height: 900px;
+  background: conic-gradient(from 40deg, rgba(255,61,119,0.22), rgba(255,157,60,0.16), transparent 65%);
+  border-radius: 50%; filter: blur(90px); pointer-events: none;
+  animation: drift 16s ease-in-out infinite alternate;
+}
+@keyframes drift { from { transform: translate(0,0) rotate(0deg) scale(1); } to { transform: translate(-6%, 8%) rotate(40deg) scale(1.15); } }
+.hero__ghost {
+  position: absolute; left: 50%; bottom: -2%; transform: translateX(-50%);
+  font: 800 clamp(6rem, 22vw, 20rem)/0.9 var(--display);
+  color: transparent; -webkit-text-stroke: 1px rgba(242,239,233,0.05);
+  letter-spacing: 0.02em; white-space: nowrap; pointer-events: none; user-select: none;
+  will-change: transform;
+}
+.marquee:hover .marquee__track { animation-play-state: paused; }
+.step, .story { will-change: transform; transform-style: preserve-3d; }
+.btn { will-change: transform; }
+.foot__mark {
+  font: 800 clamp(2.6rem, 9.4vw, 8.5rem)/1 var(--display);
+  text-align: center; white-space: nowrap; overflow: hidden;
+  color: transparent; -webkit-text-stroke: 1px rgba(242,239,233,0.14);
+  letter-spacing: 0.01em; margin: 0 0 52px; cursor: default;
+  transition: -webkit-text-stroke-color 0.4s;
+}
+.foot__mark span { transition: color 0.5s ease; }
+.foot__mark:hover span { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+@media (prefers-reduced-motion: reduce) { .aurora { animation: none; } }
+
+/* ===== Ultimate layer: monitor, typewriter, sticky bar ===== */
+.hero__grid { display: grid; grid-template-columns: 1.15fr 0.95fr; gap: clamp(32px, 5vw, 70px); align-items: center; }
+@media (max-width: 980px) { .hero__grid { grid-template-columns: 1fr; } }
+.monitor { position: relative; perspective: 1200px; }
+.monitor img {
+  border-radius: 14px; border: 1px solid var(--line);
+  box-shadow: 0 40px 90px -30px rgba(0,0,0,0.8), 0 0 0 1px rgba(255,61,119,0.12), 0 0 80px -20px rgba(255,61,119,0.25);
+  transform: rotateY(-9deg) rotateX(3deg);
+  transition: transform 0.6s cubic-bezier(0.22,1,0.36,1);
+  will-change: transform;
+}
+.monitor:hover img { transform: rotateY(0deg) rotateX(0deg) scale(1.02); }
+.monitor::after {
+  content: 'Your website. Your sales deck. Live in 7 days.';
+  position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%);
+  font: 700 10.5px/1 var(--sans); letter-spacing: 0.18em; text-transform: uppercase;
+  background: var(--grad); color: #17090d; padding: 9px 16px; border-radius: 100px; white-space: nowrap;
+}
+.typeline {
+  margin: 30px 0 0; min-height: 2.4em;
+  font: italic 500 clamp(1.1rem, 2vw, 1.45rem)/1.5 var(--display);
+}
+.typeline .lbl { font: 700 10.5px/1 var(--sans); letter-spacing: 0.22em; text-transform: uppercase; font-style: normal; color: var(--bone-faint); display: block; margin-bottom: 10px; }
+.typeline .txt { color: var(--bone-dim); }
+.typeline .txt.clear { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; font-style: normal; font-weight: 600; }
+.typeline .caret { display: inline-block; width: 2px; height: 1.05em; background: var(--hot-a); vertical-align: -0.15em; margin-left: 3px; animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.stickybar {
+  position: fixed; left: 50%; bottom: 18px; transform: translate(-50%, 140%);
+  z-index: 250; display: flex; align-items: center; gap: 18px;
+  background: rgba(20,20,25,0.9); backdrop-filter: blur(14px);
+  border: 1px solid var(--line); border-radius: 100px;
+  padding: 10px 12px 10px 26px;
+  box-shadow: 0 20px 60px -15px rgba(0,0,0,0.7);
+  transition: transform 0.5s cubic-bezier(0.22,1,0.36,1);
+  max-width: calc(100vw - 32px);
+}
+.stickybar.on { transform: translate(-50%, 0); }
+.stickybar p { margin: 0; font: 600 14px/1.3 var(--sans); white-space: nowrap; }
+.stickybar p em { font-family: var(--display); background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.stickybar .btn { padding: 13px 24px; font-size: 12.5px; }
+.stickybar .x { background: none; border: 0; color: var(--bone-faint); font-size: 18px; cursor: pointer; padding: 6px 10px; }
+.stickybar .x:hover { color: var(--bone); }
+@media (max-width: 640px) { .stickybar p span { display: none; } }
+@media (prefers-reduced-motion: reduce) { .monitor img { transform: none; } .typeline .caret { animation: none; } }
+
+/* ===== The Focus Pull: draggable before/after ===== */
+.fp { --x: 50%; position: relative; aspect-ratio: 4/3.4; border-radius: 20px; overflow: hidden; border: 1px solid var(--line); cursor: ew-resize; touch-action: none; user-select: none; box-shadow: 0 40px 90px -30px rgba(0,0,0,0.8), 0 0 80px -20px rgba(255,61,119,0.22); }
+.fp__pane { position: absolute; inset: 0; padding: clamp(22px, 3vw, 36px); display: flex; flex-direction: column; }
+.fp__before { background: #232028; filter: blur(2.6px) saturate(0.45); }
+.fp__before h4 { font: 700 clamp(15px, 1.7vw, 19px)/1.3 var(--sans); letter-spacing: 0.02em; color: #b8b3c2; margin: 14px 0 10px; text-transform: uppercase; }
+.fp__before p { font-size: 12.5px; line-height: 1.55; color: #8d8898; margin: 0 0 14px; }
+.fp__before .fbtns { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; }
+.fp__before .fbtns i { font: 600 10px/1 var(--sans); font-style: normal; padding: 9px 12px; border-radius: 6px; background: #39343f; color: #a49fae; border: 1px solid #4a4452; }
+.fp__logo { display: flex; gap: 6px; }
+.fp__logo i { width: 10px; height: 10px; border-radius: 3px; background: #5b5565; }
+.fp__after { background: linear-gradient(165deg, #17171c, #101014); clip-path: inset(0 0 0 var(--x)); }
+.fp__after .slide-tag { font: 700 10px/1 var(--sans); letter-spacing: 0.24em; text-transform: uppercase; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.fp__after h4 { font: 700 clamp(20px, 2.6vw, 30px)/1.15 var(--display); letter-spacing: -0.01em; color: var(--bone); margin: 16px 0 12px; }
+.fp__after h4 em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.fp__after p { font-size: 13.5px; line-height: 1.6; color: var(--bone-dim); margin: 0 0 18px; max-width: 34ch; }
+.fp__after .fcta { margin-top: auto; align-self: flex-start; font: 700 11.5px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; color: #17090d; background: var(--grad); padding: 12px 20px; border-radius: 100px; }
+.fp__bar { position: absolute; top: 0; bottom: 0; left: var(--x); width: 2px; background: var(--grad); transform: translateX(-1px); pointer-events: none; }
+.fp__knob { position: absolute; top: 50%; left: var(--x); transform: translate(-50%, -50%); width: 46px; height: 46px; border-radius: 50%; background: var(--grad); display: grid; place-items: center; font: 700 13px/1 var(--sans); color: #17090d; box-shadow: 0 8px 26px -6px rgba(255,61,119,0.6); pointer-events: none; }
+.fp__lbl { position: absolute; top: 14px; font: 700 9.5px/1 var(--sans); letter-spacing: 0.2em; text-transform: uppercase; padding: 7px 11px; border-radius: 100px; pointer-events: none; }
+.fp__lbl--b { left: 14px; background: rgba(35,32,40,0.85); color: #8d8898; border: 1px solid #4a4452; }
+.fp__lbl--a { right: 14px; background: rgba(16,16,20,0.85); border: 1px solid rgba(255,61,119,0.4); }
+.fp__lbl--a span { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.fp__hint { text-align: center; font-size: 12px; color: var(--bone-faint); margin-top: 32px; }
+@keyframes fpidle { 0%,100% { --x: 56%; } 50% { --x: 44%; } }
+@media (prefers-reduced-motion: reduce) { .fp__before { filter: blur(1px) saturate(0.6); } }
+
+/* Reveal choreography */
+.reveal { opacity: 0; transform: translateY(26px); transition: opacity 0.8s cubic-bezier(0.22,1,0.36,1), transform 0.8s cubic-bezier(0.22,1,0.36,1); }
+.reveal.in { opacity: 1; transform: none; }
+.reveal[data-d="1"] { transition-delay: 0.08s; } .reveal[data-d="2"] { transition-delay: 0.16s; } .reveal[data-d="3"] { transition-delay: 0.24s; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .blurword { filter: none; opacity: 1; transition: none; }
+  .marquee__track { animation: none; }
+  .hero__scroll::after { animation: none; }
+  #lens { display: none; }
+  .path--stay { filter: none; opacity: 0.75; }
+}
+</style>
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+
+<nav class="nav" id="nav" aria-label="Main">
+  <div class="wrap nav__inner">
+    <a class="nav__brand" href="#top">Message <em>Made</em> Clear</a>
+    <div class="nav__links">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Your Clarity Call</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="aurora" aria-hidden="true"></div>
+  <div class="hero__ghost" aria-hidden="true" id="ghost">CLARITY</div>
+  <div id="lens" aria-hidden="true"></div>
+  <div class="wrap hero__grid">
+    <div>
+      <p class="kicker reveal">Business Mentorship for Invisible Experts</p>
+      <h1 class="h-hero reveal" data-d="1" style="font-size:clamp(2.6rem,6.4vw,5.4rem);">Your expertise is real.<br>Your message is <span class="blurword">out&nbsp;of&nbsp;focus.</span></h1>
+      <div class="typeline reveal" data-d="2" aria-live="off">
+        <span class="lbl">Watch what clarity does:</span>
+        <span class="txt" id="typetxt"></span><span class="caret" aria-hidden="true"></span>
+      </div>
+      <p class="hero__offer reveal" data-d="2" style="margin-top:26px;"><strong>The offer, plainly:</strong> in seven days, crystal clarity on your message and a website built to work as your sales presentation deck.</p>
+      <div class="cta-row reveal" data-d="3">
+        <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Your Clarity Call</a>
+        <a class="btn btn--ghost" href="services.html">Explore the Three Paths</a>
+      </div>
+      <p class="cta-note reveal" data-d="3" style="margin-top:18px;">Free 30-minute call · No obligation · For coaches, consultants &amp; practitioners already getting client results</p>
+    </div>
+    <div class="reveal" data-d="2">
+      <div class="fp" id="fp" role="slider" aria-label="Drag to compare an unclear message with a clear one" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" tabindex="0">
+        <!-- BEFORE: the out-of-focus expert website -->
+        <div class="fp__pane fp__before" aria-hidden="true">
+          <div class="fp__logo"><i></i><i></i><i></i></div>
+          <h4>Holistic Multi-Modality Transformation Framework for Empowered Wellness Journeys</h4>
+          <p>We offer a synergistic suite of bespoke healing modalities, leveraging integrative paradigms to facilitate your journey toward optimised holistic alignment and embodied wellness solutions…</p>
+          <div class="fbtns"><i>Learn More</i><i>Services</i><i>Our Story</i><i>Modalities</i><i>Contact?</i></div>
+        </div>
+        <!-- AFTER: the same expert, made clear — slide one of the sales deck -->
+        <div class="fp__pane fp__after" aria-hidden="true">
+          <span class="slide-tag">Your new website · Slide 01 of your sales deck</span>
+          <h4>You've got the results.<br>Now get <em>chosen.</em></h4>
+          <p>I get invisible experts seen, chosen, and paid — with one clear message and a website that sells for you.</p>
+          <span class="fcta">Book a Call →</span>
+        </div>
+        <div class="fp__bar" aria-hidden="true"></div>
+        <div class="fp__knob" aria-hidden="true">◂▸</div>
+        <span class="fp__lbl fp__lbl--b" aria-hidden="true">Before · Out of focus</span>
+        <span class="fp__lbl fp__lbl--a" aria-hidden="true"><span>After · Crystal clear</span></span>
+      </div>
+      <p class="fp__hint">◂ Drag the handle — feel what clarity does ▸</p>
+    </div>
+  </div>
+  <script>
+  // Focus Pull: drag / touch / keyboard, with a gentle idle sway until touched
+  (function () {
+    var fp = document.getElementById('fp');
+    var touched = false, sway = null, dir = 1, x = 50;
+    function set(v) { x = Math.max(6, Math.min(94, v)); fp.style.setProperty('--x', x + '%'); fp.setAttribute('aria-valuenow', Math.round(x)); }
+    function fromEvent(e) { var r = fp.getBoundingClientRect(); set(((e.clientX - r.left) / r.width) * 100); }
+    fp.addEventListener('pointerdown', function (e) { touched = true; clearInterval(sway); fp.setPointerCapture(e.pointerId); fromEvent(e); });
+    fp.addEventListener('pointermove', function (e) { if (e.pressure > 0 || e.buttons) fromEvent(e); });
+    fp.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft') { touched = true; clearInterval(sway); set(x - 4); e.preventDefault(); }
+      if (e.key === 'ArrowRight') { touched = true; clearInterval(sway); set(x + 4); e.preventDefault(); }
+    });
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      sway = setInterval(function () { if (touched) return; if (x >= 58) dir = -1; if (x <= 42) dir = 1; set(x + dir * 0.25); }, 50);
+    }
+  })();
+  </script>
+  <div class="hero__scroll" aria-hidden="true">Scroll</div>
+</header>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Get <b>Clear</b></span><span>·</span><span>Get <b>Visible</b></span><span>·</span><span>Get <b>Chosen</b></span><span>·</span><span>Get <b>Clear</b></span><span>·</span><span>Get <b>Visible</b></span><span>·</span><span>Get <b>Chosen</b></span><span>·</span>
+    <span>Get <b>Clear</b></span><span>·</span><span>Get <b>Visible</b></span><span>·</span><span>Get <b>Chosen</b></span><span>·</span><span>Get <b>Clear</b></span><span>·</span><span>Get <b>Visible</b></span><span>·</span><span>Get <b>Chosen</b></span><span>·</span>
+  </div>
+</div>
+
+<main>
+
+<!-- ============ 01 · PROBLEM ============ -->
+<section id="problem">
+  <div class="wrap">
+    <p class="kicker reveal"><span class="n">01</span> The Problem</p>
+    <h2 class="h-1 reveal" data-d="1">Unclear isn't just a marketing problem.<br>It costs you <span class="serif-i grad-text">three ways.</span></h2>
+    <div class="costs">
+      <div class="cost reveal" data-d="1">
+        <span class="ghost">01</span>
+        <h3><span>In your content</span>Prospects can't tell if you're for them</h3>
+        <p>You're an expert, but your message isn't cutting through. Your content feels unfocused, and potential clients don't immediately grasp how you can help them. Booking calls is a struggle and sales conversations feel forced.</p>
+      </div>
+      <div class="cost reveal" data-d="2">
+        <span class="ghost">02</span>
+        <h3><span>In your head</span>You know it's real — it just doesn't show</h3>
+        <p>You're frustrated. You know your transformation works. But your business doesn't reflect it, and you're working harder than you should be, and it still doesn't feel right.</p>
+      </div>
+      <div class="cost reveal" data-d="3">
+        <span class="ghost">03</span>
+        <h3><span>In the world</span>The right people never find you</h3>
+        <p>Your expertise should be recognized. The world needs what you do. But if your message is unclear, the people who need you most will walk right past.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROOF STRIP ============ -->
+<div class="proof">
+  <div class="wrap proof__grid">
+    <div class="proof__intro reveal">
+      <p class="kicker" style="margin-bottom:12px;">Proof, not promises</p>
+      <p>What happened when one client's message got clear — real numbers from Yadav Motors, four weeks after launch.</p>
+    </div>
+    <div class="stat reveal" data-d="1"><span class="num" data-count="2" data-prefix="1–">1–2</span><span class="lbl">New clients, every week</span></div>
+    <div class="stat reveal" data-d="2"><span class="num" data-count="30" data-prefix="+">+30</span><span class="lbl">Google reviews in 4 weeks</span></div>
+    <div class="stat reveal" data-d="3"><span class="num" data-count="7.5" data-prefix="$" data-suffix="k+">$7.5k+</span><span class="lbl">Added annual revenue</span></div>
+  </div>
+</div>
+
+<!-- ============ 02 · GUIDE ============ -->
+<section id="about" class="rule-top">
+  <div class="wrap guide">
+    <div class="frame reveal">
+      <!-- TODO: replace with a real photo of Shaun → /images/shaun.webp -->
+      <span>Photo of Shaun Tucker<br>(replace placeholder — candid, working, natural light)</span>
+    </div>
+    <div class="guide__story">
+      <p class="kicker reveal"><span class="n">02</span> Your Guide</p>
+      <h2 class="h-1 reveal" data-d="1">I've been there.</h2>
+      <p class="reveal" data-d="1" style="margin-top:26px;">I spent years as a health scientist, personal trainer, and applied kinesiologist. I helped people transform their bodies, their energy, their lives. My clients saw the results. They felt the impact. But here's what I discovered: they couldn't explain it to anyone else. And neither could I.</p>
+      <p class="reveal" data-d="1">I had real results. Real transformations. But I didn't know how to articulate it. So I kept trying harder, kept pushing, kept feeling like I was doing something wrong.</p>
+      <p class="turn reveal" data-d="2">Then I got clear on my message. Everything changed.</p>
+      <p class="reveal" data-d="2">My content became focused. The right people found me. Booking calls became easier. Sales conversations became effortless. Now I help practitioners like you do the same: get crystal clear on your message, make your content focused, and build a sales tool that makes closing deals effortless.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 · PLAN ============ -->
+<section id="plan" class="rule-top">
+  <div class="wrap">
+    <p class="kicker reveal"><span class="n">03</span> How It Works</p>
+    <h2 class="h-1 reveal" data-d="1">Seven days. Three steps.<br><span class="serif-i grad-text">One clear message.</span></h2>
+    <p class="lede reveal" data-d="2" style="margin-top:20px;">No vague "brand journey." Here's exactly what happens, what you do, and what you walk away with at each step.</p>
+    <div class="steps">
+      <div class="step reveal" data-d="1"><div class="step__in">
+        <h3>Get Crystal Clear</h3>
+        <p>We get crystal clear on your transformation. What you actually do. Who you actually help. The specific change you create. Not what sounds impressive — what's true.</p>
+        <div class="out"><b>You walk away with</b>Your transformation statement · your ideal client, named specifically</div>
+      </div></div>
+      <div class="step reveal" data-d="2"><div class="step__in">
+        <h3>Craft Your Message</h3>
+        <p>We turn that clarity into three core messages — so every piece of content you create afterward pulls from the same well.</p>
+        <div class="out"><b>You walk away with</b>Your one-liner · your website headline · your sales-call opener</div>
+      </div></div>
+      <div class="step reveal" data-d="3"><div class="step__in">
+        <h3>Build Your Business</h3>
+        <p>We build you a website that becomes your sales presentation deck. You use it <em>in</em> your sales calls to walk prospects through your transformation.</p>
+        <div class="out"><b>You walk away with</b>A live website — built to present, not just to sit there</div>
+      </div></div>
+    </div>
+    <div class="seven reveal">
+      <p class="big">Seven days from now, you could be walking a prospect through your deck.</p>
+      <p class="sub">Clarity on your message. A sales tool ready to use in your calls. One week.</p>
+      <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Your Clarity Call</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 · SERVICES ============ -->
+<section id="services" class="rule-top">
+  <div class="wrap">
+    <p class="kicker reveal"><span class="n">04</span> Your Path Forward</p>
+    <h2 class="h-1 reveal" data-d="1">Three ways to <span class="serif-i grad-text">get clear.</span></h2>
+    <p class="lede reveal" data-d="2" style="margin-top:20px;">Choose the path that fits where you are right now. From free discovery to full transformation.</p>
+    <div class="tiers">
+      <div class="tier reveal" data-d="1">
+        <p class="stage">Start Free</p>
+        <h3>Clarity Audit</h3>
+        <p class="price">Free</p>
+        <p class="meta">Forever free · Available 24/7</p>
+        <p class="desc">Understand your messaging gaps. Get a detailed report scoring your website's clarity and conversion persuasiveness. Self-serve insights to fix it yourself — or upgrade.</p>
+        <a class="btn btn--ghost" href="/audit">Start Your Free Audit</a>
+      </div>
+      <div class="tier reveal" data-d="2">
+        <p class="stage">First Win</p>
+        <h3>From Hero to Guide</h3>
+        <p class="price">$47</p>
+        <p class="meta">2-hour live online workshop</p>
+        <p class="desc">Turn your journey into a business offer. Get crystal clear on your message based on one part of your transformation. Your first real win.</p>
+        <a class="btn btn--ghost" href="https://calendly.com/theshauntucker/workshop">Register Now</a>
+      </div>
+      <div class="tier tier--hot reveal" data-d="3">
+        <p class="stage">Full Transformation</p>
+        <h3>Open for Business</h3>
+        <p class="price">$1k–$15k</p>
+        <p class="meta">1-on-1 · Custom pricing · 7-day intensive · Payment plans available</p>
+        <p class="desc">Crystal clear message + custom-built website + sales system. In 7 days. Your business works around the clock attracting aligned clients.</p>
+        <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Your Clarity Call</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 · THE FORK ============ -->
+<section class="rule-top">
+  <div class="wrap">
+    <p class="kicker reveal"><span class="n">05</span> The Fork in the Road</p>
+    <h2 class="h-1 reveal" data-d="1">Two versions of the<br>next twelve months.</h2>
+    <div class="fork reveal" data-d="2">
+      <div class="path path--stay">
+        <h3>If nothing changes…</h3>
+        <ul>
+          <li>Your content stays unfocused. The right prospects never find you.</li>
+          <li>Booking calls stays hard. Sales conversations stay uncomfortable.</li>
+          <li>Your business never reflects your true value. You stay stuck.</li>
+        </ul>
+      </div>
+      <div class="path path--go">
+        <h3>When your message is <span class="serif-i grad-text">clear</span></h3>
+        <ul>
+          <li>Your message becomes crystal clear. Your content becomes focused.</li>
+          <li>The right prospects find you. Booking calls becomes easier.</li>
+          <li>Your sales conversations become effortless. Your business reflects your value.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="fork-hint reveal" data-d="3">One side of this section is out of focus on purpose. That's the point.</p>
+  </div>
+</section>
+
+<!-- ============ 06 · RESULTS ============ -->
+<section id="results" class="rule-top">
+  <div class="wrap">
+    <p class="kicker reveal"><span class="n">06</span> Client Results</p>
+    <h2 class="h-1 reveal" data-d="1">Real stories. <span class="serif-i grad-text">Real results.</span></h2>
+
+    <!-- Featured case study: real numbers -->
+    <div class="case reveal" data-d="2">
+      <div class="case__head">
+        <p class="kicker" style="margin-bottom:10px;">Featured Case Study · Yadav Motors</p>
+        <h3 class="h-2">Rama's mechanic shop: 1–2 new clients, every week.</h3>
+      </div>
+      <blockquote class="case__quote">Since launching the website, I see at least one or two new customers every week who found me online. The website has completely changed how people discover my business.</blockquote>
+      <p class="case__who"><b>Rama</b> · Owner, Yadav Motors — <a href="https://www.yadavmotors.com.au/" style="color:inherit;">yadavmotors.com.au</a></p>
+      <div class="case__stats">
+        <div class="case__stat"><span class="num">1–2 / week</span><span class="lbl">Ongoing client flow</span></div>
+        <div class="case__stat"><span class="num">+30 reviews</span><span class="lbl">In 4 weeks — vs 120 over 5 years prior</span></div>
+        <div class="case__stat"><span class="num">$7,500+ / yr</span><span class="lbl">At $250 avg. value × 30+ clients annually</span></div>
+      </div>
+    </div>
+
+    <!-- Client stories -->
+    <div class="stories">
+      <figure class="story reveal" data-d="1">
+        <blockquote>Shaun has an incredible ability to take what's in your head and heart and turn it into something real.</blockquote>
+        <figcaption><cite><b>Afrodita</b><span>Restore Wellness — Holistic Healing Centre, Altona North</span></cite></figcaption>
+        <div class="result">Launched her healing centre with a clear brand + launch strategy</div>
+      </figure>
+      <figure class="story reveal" data-d="2">
+        <blockquote>More than building a website — the process was integral to understanding my purpose and who my target audience is.</blockquote>
+        <figcaption><cite><b>Peter</b><span>The Men's Mentor — Men Caring for Men</span></cite></figcaption>
+        <div class="result">From unclear vision to running events with growing conviction</div>
+      </figure>
+      <figure class="story reveal" data-d="3">
+        <blockquote>A website can be something you over-complicate. Shaun has a process that helps you recognise what is important — so you actually get a site live and make your business a reality.</blockquote>
+        <figcaption><cite><b>Tim</b><span>Video Authority Founder</span></cite></figcaption>
+        <div class="result">From overthinking to live and trading on his own platform</div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 · FAQ ============ -->
+<section id="faq" class="rule-top">
+  <div class="wrap">
+    <p class="kicker reveal"><span class="n">07</span> Before You Book</p>
+    <h2 class="h-1 reveal" data-d="1">Your questions, <span class="serif-i grad-text">answered.</span></h2>
+    <div class="faq reveal" data-d="2">
+      <details>
+        <summary>Is this just another marketing course?</summary>
+        <p>No. This isn't about theory. This is about clarity. We cut through the noise to define your unique transformation, craft your message, and build a sales tool that works for you. It's practical, hands-on, and focused on immediate results.</p>
+      </details>
+      <details>
+        <summary>I'm already busy. How much time will this take?</summary>
+        <p>We get it. Your time is precious. That's why this process is designed to be efficient and impactful. In just seven days, you'll have a clear message and a working sales tool. We focus on what matters, so you can get back to doing what you do best.</p>
+      </details>
+      <details>
+        <summary>How do I know which service is right for me?</summary>
+        <p>Start with the free Clarity Audit to understand your gaps. If you want momentum, try the $47 workshop. If you're ready for the full transformation — message, website, and sales system in seven days — book a call and we'll see if the 1-on-1 intensive is the right fit. Many clients upgrade after experiencing results.</p>
+      </details>
+      <details>
+        <summary>Is the website included in the 1-on-1 coaching?</summary>
+        <p>Yes. The 7-day intensive includes a fully custom-built website based on your clear message, ready to generate leads immediately.</p>
+      </details>
+      <details>
+        <summary>Do you offer payment plans?</summary>
+        <p>Yes, for the 1-on-1 coaching. We can discuss options during your strategy call.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final rule-top">
+  <div class="wrap">
+    <p class="kicker reveal" style="justify-content:center;">Ready to Get Clear?</p>
+    <h2 class="h-1 reveal" data-d="1">The right clients can't choose you<br>until they can <span class="serif-i grad-text">see you.</span></h2>
+    <p class="lede reveal" data-d="2" style="text-align:center;">You're already the expert. Let's get you crystal clear on your message so the right clients can find you, understand you, and choose you.</p>
+    <div class="cta-row reveal" data-d="3" style="justify-content:center;">
+      <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Your Clarity Call</a>
+    </div>
+    <p class="cta-note reveal" data-d="3" style="margin-top:18px;">Free 30-minute call · No obligation</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h4>Message Made Clear</h4>
+        <p>By Shaun Tucker — business mentor for invisible experts. Get clear, get visible, get chosen.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Ready to Get Clear?</h4>
+        <p style="margin-bottom:18px;">One call. One week. One clear message.</p>
+        <a class="btn btn--ghost" href="https://calendly.com/theshauntucker/strategycall" style="padding:13px 24px;font-size:13px;">Book Your Clarity Call</a>
+      </div>
+    </div>
+    <div class="foot__mark" aria-hidden="true"><span>MESSAGE MADE CLEAR</span></div>
+    <div class="foot__legal">
+      <span>© 2026 Message Made Clear. All rights reserved. · For invisible experts ready to get clear, visible, and chosen.</span>
+      <span><a href="/terms">Terms of Service</a> &nbsp;·&nbsp; <a href="/privacy">Privacy Policy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Loaded state → hero blur-word resolves
+addEventListener('load', function () {
+  requestAnimationFrame(function () { document.body.classList.add('is-loaded'); });
+});
+
+// Nav state + scroll progress hairline
+var nav = document.getElementById('nav');
+var bar = document.getElementById('progress');
+addEventListener('scroll', function () {
+  nav.classList.toggle('scrolled', scrollY > 40);
+  var h = document.documentElement;
+  bar.style.width = (scrollY / (h.scrollHeight - h.clientHeight) * 100) + '%';
+}, { passive: true });
+
+// Focus lens: glides toward the cursor (lerp) instead of snapping
+var hero = document.querySelector('.hero');
+var lens = document.getElementById('lens');
+var ghost = document.getElementById('ghost');
+var fine = matchMedia('(pointer:fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (fine) {
+  var tx = 0, ty = 0, cx = 0, cy = 0, lensOn = false;
+  hero.addEventListener('mousemove', function (e) {
+    var r = hero.getBoundingClientRect();
+    tx = e.clientX - r.left; ty = e.clientY - r.top;
+    if (!lensOn) { cx = tx; cy = ty; lensOn = true; }
+  });
+  (function glide() {
+    cx += (tx - cx) * 0.08; cy += (ty - cy) * 0.08;
+    lens.style.left = cx + 'px'; lens.style.top = cy + 'px';
+    requestAnimationFrame(glide);
+  })();
+
+  // Magnetic buttons — they lean toward the cursor
+  document.querySelectorAll('.btn').forEach(function (b) {
+    b.addEventListener('mousemove', function (e) {
+      var r = b.getBoundingClientRect();
+      b.style.transform = 'translate(' + ((e.clientX - r.left - r.width / 2) * 0.14) + 'px,' + ((e.clientY - r.top - r.height / 2) * 0.3 - 2) + 'px)';
+    });
+    b.addEventListener('mouseleave', function () { b.style.transform = ''; });
+  });
+
+  // 3D tilt on plan steps and story cards
+  document.querySelectorAll('.step, .story').forEach(function (c) {
+    c.addEventListener('mousemove', function (e) {
+      var r = c.getBoundingClientRect();
+      var rx = ((e.clientY - r.top) / r.height - 0.5) * -7;
+      var ry = ((e.clientX - r.left) / r.width - 0.5) * 7;
+      c.style.transform = 'perspective(900px) rotateX(' + rx + 'deg) rotateY(' + ry + 'deg) translateY(-6px)';
+    });
+    c.addEventListener('mouseleave', function () { c.style.transform = ''; });
+  });
+}
+
+// Ghost word parallax — drifts as you scroll past the hero
+addEventListener('scroll', function () {
+  if (ghost && scrollY < innerHeight * 1.4) ghost.style.transform = 'translateX(-50%) translateY(' + scrollY * 0.24 + 'px)';
+}, { passive: true });
+
+// Count-up stats when the proof strip enters view
+var counted = false;
+var proofIO = new IntersectionObserver(function (entries) {
+  if (!entries[0].isIntersecting || counted) return;
+  counted = true;
+  document.querySelectorAll('.stat .num[data-count]').forEach(function (el) {
+    var end = parseFloat(el.dataset.count), pre = el.dataset.prefix || '', suf = el.dataset.suffix || '';
+    var dec = (String(end).indexOf('.') > -1) ? 1 : 0, t0 = null;
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    (function tick(ts) {
+      if (!t0) t0 = ts;
+      var p = Math.min((ts - t0) / 1300, 1), e = 1 - Math.pow(1 - p, 3);
+      el.textContent = pre + (end * e).toFixed(dec) + suf;
+      if (p < 1) requestAnimationFrame(tick); else el.textContent = pre + end.toFixed(dec).replace(/\.0$/, '') + suf;
+    })(performance.now());
+  });
+  proofIO.disconnect();
+}, { threshold: 0.4 });
+var proofEl = document.querySelector('.proof');
+if (proofEl) proofIO.observe(proofEl);
+
+// Staggered reveals
+var io = new IntersectionObserver(function (entries) {
+  entries.forEach(function (e) {
+    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+  });
+}, { threshold: 0.14 });
+document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+</script>
+<div class="stickybar" id="stickybar" role="complementary" aria-label="Book a call">
+  <p><span>Ready to be </span><em>seen, chosen &amp; paid?</em></p>
+  <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Your Clarity Call</a>
+  <button class="x" id="stickyx" aria-label="Dismiss">✕</button>
+</div>
+
+<script>
+// Typewriter: vague expert-babble → deleted → the clear one-liner
+(function () {
+  var el = document.getElementById('typetxt');
+  if (!el) return;
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    el.textContent = '“I get invisible experts seen, chosen, and paid — in 7 days.”';
+    el.classList.add('clear');
+    return;
+  }
+  var vague = [
+    '“So I kind of help people with, um, wellness stuff and mindset and…”',
+    '“It’s hard to explain — I do coaching, and healing, and a bit of…”',
+    '“I offer a holistic multi-modality transformation framework for…”'
+  ];
+  var clear = '“I get invisible experts seen, chosen, and paid — in 7 days.”';
+  var vi = 0;
+  function type(str, isClear, done) {
+    el.classList.toggle('clear', isClear);
+    var i = 0;
+    (function t() {
+      el.textContent = str.slice(0, ++i);
+      if (i < str.length) setTimeout(t, isClear ? 34 : 26);
+      else setTimeout(done, isClear ? 4200 : 1200);
+    })();
+  }
+  function erase(done) {
+    (function e() {
+      el.textContent = el.textContent.slice(0, -1);
+      if (el.textContent.length) setTimeout(e, 11);
+      else setTimeout(done, 350);
+    })();
+  }
+  (function loop() {
+    type(vague[vi % vague.length], false, function () {
+      erase(function () {
+        vi++;
+        type(clear, true, function () { erase(loop); });
+      });
+    });
+  })();
+})();
+
+// Sticky conversion bar: appears once the reader is warm, dismissible
+(function () {
+  var bar = document.getElementById('stickybar');
+  var closed = false;
+  document.getElementById('stickyx').addEventListener('click', function () {
+    closed = true; bar.classList.remove('on');
+  });
+  addEventListener('scroll', function () {
+    if (closed) return;
+    var deep = scrollY > innerHeight * 1.2;
+    var atEnd = scrollY + innerHeight > document.documentElement.scrollHeight - 700;
+    bar.classList.toggle('on', deep && !atEnd);
+  }, { passive: true });
+})();
+</script>
+</body>
+</html>

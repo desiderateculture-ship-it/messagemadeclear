@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Shaun Tucker — Message Made Clear</title>
+<meta name="description" content="I had real expertise, real transformation, real results. But nobody could see it. Here's how I closed my own clarity gap — and now help invisible experts do the same.">
+<link rel="canonical" href="https://messagemadeclear.com/about">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="I Was Invisible — Shaun Tucker's Story">
+<meta property="og:description" content="From health scientist with real results nobody could see, to helping invisible experts get seen, chosen, and paid.">
+<meta property="og:locale" content="en_AU">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mmc-shared.css">
+<style>
+/* About-page-specific: the gap timeline + pattern list */
+.origin { display: grid; grid-template-columns: 1.3fr 0.9fr; gap: clamp(36px,5vw,80px); align-items: center; }
+.origin p { color: var(--bone-dim); margin: 0 0 20px; max-width: 58ch; }
+.origin .frame { aspect-ratio: 4/5; border-radius: 4px; background: linear-gradient(160deg, var(--ink-3), var(--ink-2)); border: 1px solid var(--line); position: relative; display: grid; place-items: center; color: var(--bone-faint); font-size: 13px; text-align: center; padding: 24px; }
+.origin .frame::before { content: ''; position: absolute; top: -14px; left: -14px; width: 72px; height: 72px; border-top: 2px solid var(--hot-a); border-left: 2px solid var(--hot-a); }
+@media (max-width: 900px) { .origin { grid-template-columns: 1fr; } .origin .frame { max-width: 340px; } }
+
+/* The gap-closing sequence — 3 steps, each a distinct hot gradient (kept from source) */
+.gap-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 64px; }
+.gap-card { position: relative; border-radius: 24px; padding: 2px; overflow: hidden; transition: transform 0.3s ease; }
+.gap-card:hover { transform: translateY(-6px); }
+.gap-card::before { content: ''; position: absolute; inset: 0; border-radius: 24px; opacity: 0.7; }
+.gap-card--1::before { background: linear-gradient(137deg, #ff3d77 0%, #ffb1ce 45%, #ff9d3c 100%); }
+.gap-card--2::before { background: linear-gradient(137deg, #ffffff 0%, #7dd3fc 45%, #06b6d4 100%); }
+.gap-card--3::before { background: linear-gradient(137deg, #4361ee 0%, #e0aeff 45%, #f72585 100%); }
+.gap-card__in { position: relative; background: var(--ink-2); border-radius: 22px; padding: 40px 32px; height: 100%; display: flex; flex-direction: column; }
+.gap-card__in .num { font: 800 60px/1 var(--display); color: var(--bone-faint); opacity: 0.35; margin-bottom: 18px; }
+.gap-card__in h3 { font-size: 21px; margin: 0 0 12px; }
+.gap-card__in p { font-size: 14.5px; color: var(--bone-dim); margin: 0; }
+@media (max-width: 900px) { .gap-steps { grid-template-columns: 1fr; } }
+
+/* Pattern recognition — practitioners Shaun saw the same gap in */
+.pattern-list { display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 40px; }
+.pattern-item { background: var(--ink); padding: 28px 30px; display: grid; grid-template-columns: 220px 1fr; gap: 20px; align-items: baseline; }
+.pattern-item h3 { font-size: 16.5px; margin: 0; color: var(--bone); }
+.pattern-item p { font-size: 14.5px; color: var(--bone-dim); margin: 0; }
+@media (max-width: 700px) { .pattern-item { grid-template-columns: 1fr; gap: 6px; } }
+
+/* Mission statements — the "you don't need X, you need Y" reframes */
+.reframes { display: grid; gap: 14px; margin-top: 40px; }
+.reframe { display: flex; align-items: flex-start; gap: 18px; padding: 22px 26px; border: 1px solid var(--line); border-radius: 14px; background: var(--ink-2); }
+.reframe .check { flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%; background: var(--grad); display: grid; place-items: center; color: #17090d; font-weight: 800; font-size: 14px; }
+.reframe p { margin: 0; font-size: 16px; }
+.reframe b { font-weight: 700; }
+</style>
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+
+<nav class="nav" id="nav" aria-label="Main">
+  <div class="wrap nav__inner">
+    <a class="nav__brand" href="index.html">Message <em>Made</em> Clear</a>
+    <div class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Your Clarity Call</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="page-hero">
+  <div class="wrap">
+    <p class="kicker reveal">About Shaun Tucker</p>
+    <h1 class="h-hero reveal" data-d="1" style="font-size:clamp(2.6rem,6vw,5rem);">I was <span class="serif-i grad-text">invisible.</span></h1>
+    <p class="lede reveal" data-d="2" style="margin-top:24px;">I had real expertise. Real transformation. Real results. But nobody could see it. My message wasn't clear. So my business didn't reflect my value.</p>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ ORIGIN ============ -->
+<section class="rule-top">
+  <div class="wrap origin">
+    <div>
+      <p class="kicker reveal">My Background</p>
+      <h2 class="h-1 reveal" data-d="1">From health scientist to <span class="serif-i grad-text">invisible expert.</span></h2>
+      <p class="reveal" data-d="2" style="margin-top:26px;">I spent years as a health scientist, personal trainer, and applied kinesiologist. I helped people transform their bodies, their energy, their lives. My clients saw the results. They felt the impact.</p>
+      <p class="reveal" data-d="2">But here's what I discovered: they couldn't explain it to anyone else. And neither could I.</p>
+      <p class="reveal" data-d="3">Now I help practitioners like you do the same. I show you how to get crystal clear on your message. How to make your content focused. How to build a sales tool that makes closing deals effortless.</p>
+    </div>
+    <div class="frame reveal" data-d="2">
+      <!-- TODO: real photo of Shaun → /images/shaun-about.webp -->
+      <span>Photo of Shaun Tucker<br>(replace placeholder)</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ I CLOSED MY OWN GAP ============ -->
+<section class="rule-top">
+  <div class="wrap">
+    <p class="kicker kicker--center reveal" style="justify-content:center;">The Shift</p>
+    <h2 class="h-1 center reveal" data-d="1">I closed my <span class="serif-i grad-text">own gap.</span></h2>
+    <div class="gap-steps">
+      <div class="gap-card gap-card--1 reveal" data-d="1"><div class="gap-card__in">
+        <div class="num">1</div>
+        <h3>I got crystal clear</h3>
+        <p>I articulated exactly what I do, who I do it for, and why it matters. No jargon. No corporate speak. Just truth.</p>
+      </div></div>
+      <div class="gap-card gap-card--2 reveal" data-d="2"><div class="gap-card__in">
+        <div class="num">2</div>
+        <h3>I positioned myself</h3>
+        <p>I stopped competing on price and started competing on clarity. My message became my competitive advantage.</p>
+      </div></div>
+      <div class="gap-card gap-card--3 reveal" data-d="3"><div class="gap-card__in">
+        <div class="num">3</div>
+        <h3>I built a system</h3>
+        <p>I created a process that turned clarity into a website that worked 24/7. Clients found me. They understood me. They chose me.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE PATTERN ============ -->
+<section class="rule-top">
+  <div class="wrap wrap--narrow">
+    <p class="kicker reveal">The Pattern</p>
+    <h2 class="h-1 reveal" data-d="1">This wasn't just <span class="serif-i grad-text">my problem.</span></h2>
+    <p class="lede reveal" data-d="2" style="margin-top:22px;">Once I closed my own gap, I started seeing the same pattern everywhere. Brilliant practitioners. Real expertise. Proven results. But invisible online. Undercharging. Capped growth. They weren't failing because they lacked skill — they were failing because they lacked clarity.</p>
+    <div class="pattern-list reveal" data-d="3">
+      <div class="pattern-item"><h3>The Breathwork Facilitator</h3><p>Transforming nervous systems. Changing lives. But nobody knew what she did or who she helped.</p></div>
+      <div class="pattern-item"><h3>The Business Coach</h3><p>Scaling companies. Creating systems. But lost in a sea of generic "business coach" messaging.</p></div>
+      <div class="pattern-item"><h3>The Somatic Practitioner</h3><p>Healing trauma. Restoring presence. But her website looked like everyone else's.</p></div>
+      <div class="pattern-item"><h3>The Wellness Expert</h3><p>Proven results. Loyal clients. But no referrals because people couldn't explain what made her different.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MISSION ============ -->
+<section class="rule-top">
+  <div class="wrap wrap--narrow">
+    <p class="kicker reveal">My Mission</p>
+    <h2 class="h-1 reveal" data-d="1">I help invisible experts become <span class="serif-i grad-text">visible</span> to the right people.</h2>
+    <p class="lede reveal" data-d="2" style="margin-top:22px;">I built a process to help wellness practitioners, coaches, and facilitators get crystal clear on their message. When they know exactly what they do, who they help, and why it matters — they become convicted. Confident. The sales process becomes easier because they're standing behind something real.</p>
+    <div class="reframes reveal" data-d="3">
+      <div class="reframe"><span class="check">✓</span><p>You don't need a <b>bigger audience</b>. You need a <b>clearer message</b>.</p></div>
+      <div class="reframe"><span class="check">✓</span><p>You don't need <b>more content</b>. You need a <b>system that converts</b>.</p></div>
+      <div class="reframe"><span class="check">✓</span><p>You don't need to <b>charge less</b>. You need to <b>position differently</b>.</p></div>
+      <div class="reframe"><span class="check">✓</span><p>You don't need to <b>work harder</b>. You need a <b>website that works for you</b>.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final rule-top">
+  <div class="wrap">
+    <p class="kicker reveal" style="justify-content:center;">Ready to Get Clear?</p>
+    <h2 class="h-1 reveal" data-d="1">Let's close <span class="serif-i grad-text">your</span> gap.</h2>
+    <p class="lede reveal" data-d="2" style="text-align:center;">Let's get you crystal clear on your message so you're convicted, confident, and visible to the right people.</p>
+    <div class="cta-row reveal" data-d="3" style="justify-content:center;">
+      <a class="btn" href="https://calendly.com/theshauntucker/strategycall">Book Your Free Clarity Call</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h4>Message Made Clear</h4>
+        <p>By Shaun Tucker — business mentor for invisible experts. Get clear, get visible, get chosen.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Ready to Get Clear?</h4>
+        <p style="margin-bottom:18px;">One call. One week. One clear message.</p>
+        <a class="btn btn--ghost" href="https://calendly.com/theshauntucker/strategycall" style="padding:13px 24px;font-size:13px;">Book Your Clarity Call</a>
+      </div>
+    </div>
+    <div class="foot__legal">
+      <span>© 2026 Message Made Clear. All rights reserved. · For invisible experts ready to get clear, visible, and chosen.</span>
+      <span><a href="terms.html">Terms of Service</a> &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+var nav = document.getElementById('nav'), bar = document.getElementById('progress');
+addEventListener('scroll', function () {
+  nav.classList.toggle('scrolled', scrollY > 40);
+  var h = document.documentElement;
+  bar.style.width = (scrollY / (h.scrollHeight - h.clientHeight) * 100) + '%';
+}, { passive: true });
+var io = new IntersectionObserver(function (entries) {
+  entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+}, { threshold: 0.14 });
+document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+</script>
+</body>
+</html>
